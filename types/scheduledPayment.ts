@@ -1,0 +1,1 @@
+export interface ScheduledPayment { id: string; title: string; amount: number; dueDate: string; frequency: string; category: string; wallet: string; status: 'Paid' | 'Due' | 'Upcoming'; reminderEnabled: boolean; }
